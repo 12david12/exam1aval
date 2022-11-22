@@ -7,4 +7,4 @@
 7. grep "González" alumnos.txt | grep -c "SI"
 8. sed "s/Vicente/Pepe/g' alumnos.txt
 9. grep "20[10-19]" alumnos.txt
-10.
+10. grep "^J" alumnos.txt | grep "INGLÉS" | awk '{print $1 " " $2}
