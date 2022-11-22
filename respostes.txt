@@ -5,3 +5,4 @@
 5. mv ../examen/si.txt ./si
 6. awk '{print $1 " " $2 "-" $5}
 7. grep "González" alumnos.txt | grep -c "SI"
+8. sed "s/Vicente/Pepe/g' alumnos.txt
